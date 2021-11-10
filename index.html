@@ -1,22 +1,30 @@
 <!doctype html>
 <html lang="ru">
-<title>
-    <meta charset="utf-8">
-    <link href="/homework/goit-markup-hw-01/css/styles.css" rel="stylesheet">
-</title>
+    <head>
+        <meta charset="utf-8">
+        <link href="" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+
 <body>
     <!-- Header-->
     <header>
+        <a href=""><span class="web">Web</span>Studio</a>
         <nav>
-            <ul>
-                <li><span>Web</span>Studio</li>
-                <li>Студия</li>
-                <li>Портфолио</li>
-                <li>Контакты</li>
+            <ul class="links">
+                <li class="studio">
+                    <a href=""> Студия</a>
+                </li>
+                <li class="portfolio">
+                    <a href=""> Портфолио</a>
+                </li>
+                <li class="upcontact">
+                    <a href=""> Контакты</a>
+                </li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a href="mailto:info@devstudio.com" class="upmail">info@devstudio.com</a >
+        <a href="tel:+380961111111" class="upcontacts">+38 096 111 11 11</a> 
     </header>
     <main>
         <!-- Hero-->
@@ -28,25 +36,27 @@
         <!-- About us-->
         <section class="aboutus">
             <h2>Наши преимущества</h2>
-            <dl>
-                <dt>Внимание к деталям</dt>
-                <dd>Идейные соображения, а также начало повседневной работы по формированию позиции.</dd>
-                <dt>Пунктуальность</dt>
-                <dd>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</dd>
-                <dt>Планирование</dt>
-                <dd>Равным образом консультация с широким активом в значительной степени обуславливает.</dd>
-                <dt>Современные технологии</dt>
-                <dd>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</dd>
-            </dl>
+            <ul>
+                <li>Внимание к деталям</li>
+                <li>Идейные соображения, а также начало повседневной работы по формированию позиции.</li>
+                <li>Пунктуальность</li>
+                <li>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</li>
+                <li>Планирование</li>
+                <li>Равным образом консультация с широким активом в значительной степени обуславливает.</li>
+                <li>Современные технологии</li>
+                <li>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</li>
+            </ul>
             
         </section>
         
         <!-- Our work-->
         <section class="ourwork">
             <h2>Чем мы занимаемся</h2>
-            <img src="/homework/goit-markup-hw-01/images/image(1).jpg" alt="Печатает код" width="370">
-            <img src="/homework/goit-markup-hw-01/images/image(2).jpg" alt="Выбирает тему для смартфона" width="370">
-            <img src="/homework/goit-markup-hw-01/images/image(3).jpg" alt="Выбирает цвет на планшете" width="370">
+            <ul>
+                <li><img src="./images/image1.jpg" alt="Печатает код" width="370"></li>
+                <li><img src="./images/image2.jpg" alt="Выбирает тему для смартфона" width="370"></li>
+                <li><img src="./images/image3.jpg" alt="Выбирает цвет на планшете" width="370"></li>
+            </ul> 
         </section>
         
         <!-- Team-->
@@ -54,33 +64,33 @@
             <h2>Наша команда</h2>
             <ul>
                 <li>
-                    <img src="/homework/goit-markup-hw-01/images/image(4).jpg" alt="Игорь Демьяненко" width="370">
-                    <p>Игорь Демьяненко</p>
+                    <img src="./images/image4.jpg" alt="Игорь Демьяненко" width="370">
+                    <h3>Игорь Демьяненко</h3>
                     <p lang="en">Product Designer</p>
                 </li>
                 <li>
-                    <img src="/homework/goit-markup-hw-01/images/image(5).jpg" alt="Ольга Репина" width="370">
-                    <p>Ольга Репина</p>
+                    <img src="./images/image5.jpg" alt="Ольга Репина" width="370">
+                    <h3>Ольга Репина</h3>
                     <p lang="en">Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="/homework/goit-markup-hw-01/images/image(6).jpg" alt="Николай Тарасов" width="370">
-                    <p>Николай Тарасов</p>
+                    <img src="./images/image6.jpg" alt="Николай Тарасов" width="370">
+                    <h3>Николай Тарасов</h3>
                     <p lang="en">Marketing</p>
                 </li>
                 <li>
-                    <img src="/homework/goit-markup-hw-01/images/image(7).jpg" alt="Михаил Ермаков" width="370">
-                    <p>Михаил Ермаков</p>
+                    <img src="./images/image7.jpg" alt="Михаил Ермаков" width="370">
+                    <h3>Михаил Ермаков</h3>
                     <p lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
     <footer>
-        <a href=""><span>Web</span>Studio</a>
+        <a href=""><span class="web">Web</span>Studio</a>
         <address>г. Киев, пр-т Леси Украинки, 26</address>
-        <p>info@example.com</p>
-        <p>+38 099 111 11 11</p>
+        <a href="">info@example.com</a>
+        <a href="">+38 099 111 11 11</a>
     </footer>
 </body>
 </html>
